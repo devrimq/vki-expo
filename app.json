@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devrimq.vkiapp"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "aa936749-de7c-4126-9cab-144fd43d532a"
+      }
     }
   }
 }
